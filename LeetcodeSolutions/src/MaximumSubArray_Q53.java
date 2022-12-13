@@ -9,6 +9,8 @@ class MaximumSubArray_Q53 {
 
     }
 
+    // Kadane's Algorithm
+
     public static int maxSubArray(int[] nums) {
         int sum = nums[0];
         int maxSum = nums[0];
