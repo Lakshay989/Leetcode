@@ -6,7 +6,7 @@ public class FirstBadVersion_Q278
     {
         return false ;
     }
-    
+
     public int firstBadVersion(int n)
     {
         int low = 1;
