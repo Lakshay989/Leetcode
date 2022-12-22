@@ -1,4 +1,4 @@
-public class MergeTwoSortedLists
+public class MergeTwoSortedLists_Q21
 {
 
       //Definition for singly-linked list.
@@ -10,7 +10,7 @@ public class MergeTwoSortedLists
           ListNode(int val) { this.val = val; }
           ListNode(int val, ListNode next) { this.val = val; this.next = next; }
       }
-     
+
       public ListNode mergeTwoLists(ListNode list1, ListNode list2)
       {
             //ArrayList<ListNode> mergedList;
