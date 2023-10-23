@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/InterviewQuestions/CheckPermutation/CheckPermutation.iml" filepath="$PROJECT_DIR$/InterviewQuestions/CheckPermutation/CheckPermutation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LeetCode.iml" filepath="$PROJECT_DIR$/.idea/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetcodeSolutions/LeetcodeSolutions.iml" filepath="$PROJECT_DIR$/LeetcodeSolutions/LeetcodeSolutions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterviewQuestions/isUnique/isUnique.iml" filepath="$PROJECT_DIR$/InterviewQuestions/isUnique/isUnique.iml" />
+    </modules>
+  </component>
+</project>
