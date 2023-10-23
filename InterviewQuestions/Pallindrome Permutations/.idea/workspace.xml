@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8a1523e-30b5-4b36-ae8c-017abd3f7f45" name="Changes" comment="" />
+    <list default="true" id="f3a3f47b-00f2-4554-9f20-d767e68c4eb3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +13,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2X9N0txhY20IsP239auNaQ8t27q" />
+  <component name="ProjectId" id="2XBWgNaRZlAVzl5A16iqk1JLJPM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,12 +29,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d8a1523e-30b5-4b36-ae8c-017abd3f7f45" name="Changes" comment="" />
-      <created>1698037117930</created>
+      <changelist id="f3a3f47b-00f2-4554-9f20-d767e68c4eb3" name="Changes" comment="" />
+      <created>1698103065279</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1698037117930</updated>
-      <workItem from="1698037119099" duration="1962000" />
+      <updated>1698103065279</updated>
+      <workItem from="1698103066382" duration="2085000" />
     </task>
     <servers />
   </component>
@@ -51,5 +51,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
