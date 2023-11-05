@@ -10,7 +10,7 @@ public class AddingTwoNumbers_Q2
     public class ListNode
     {
         //Definition for singly-linked list.
-        int val; //
+        int val;
         ListNode next;
         ListNode() {}
         ListNode(int val) { this.val = val; }
