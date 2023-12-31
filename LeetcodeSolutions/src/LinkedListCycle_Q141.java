@@ -1,25 +1,24 @@
 
  // Definition for singly-linked list.
-  class ListNode {
+  class ListNodeQ141 {
       int val;
-      ListNode next;
-      ListNode(int x) {
+      ListNodeQ141 next;
+      ListNodeQ141(int x) {
           val = x;
           next = null;
       }
  }
 
-
 public class LinkedListCycle_Q141
 {
-        public boolean hasCycle(ListNode head)
+        public boolean hasCycle(ListNodeQ141 head)
         {
             if (head == null) {
                 return false;
             }
 
-            ListNode slow = head;
-            ListNode fast = head.next;
+            ListNodeQ141 slow = head;
+            ListNodeQ141 fast = head.next;
             while (slow != fast) {
                 if (fast == null || fast.next == null) {
                     return false;
