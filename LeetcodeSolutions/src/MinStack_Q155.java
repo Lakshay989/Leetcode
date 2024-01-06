@@ -14,21 +14,21 @@ public class MinStack_Q155 {
                 min.add(val);
             }
             else{
-                min.add(Integer.min(min.getLast() ,val)) ;
+                min.add(Integer.min(min.get(min.size() -1) ,val)) ;
             }
         }
 
         public void pop() {
-            list.removeLast() ;
-            min.removeLast() ;
+            list.remove(list.size() -1) ;
+            min.remove(min.size() -1) ;
         }
 
         public int top() {
-            return list.getLast() ;
+            return list.get(list.size() -1) ;
         }
 
         public int getMin() {
-            return min.getLast() ;
+            return min.get(min.size() -1) ;
         }
 
     public static void main(String[] args) {
