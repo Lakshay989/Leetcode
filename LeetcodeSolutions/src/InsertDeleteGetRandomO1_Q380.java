@@ -43,7 +43,7 @@ public class InsertDeleteGetRandomO1_Q380 {
     }
 
     public static void main(String[] args) {
-        
+
     }
 
 /**
