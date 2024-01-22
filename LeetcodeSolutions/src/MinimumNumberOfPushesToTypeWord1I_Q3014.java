@@ -1,6 +1,7 @@
 import java.util.Arrays;
 import java.util.Collections;
 
+// Same solution for Q3016 as well
 class MinimumNumberOfPushesToTypeWord1I_Q3014{
     public int minimumPushes(String word) {
 
