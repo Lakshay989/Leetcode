@@ -4,6 +4,10 @@ public class Day1_NotQuiteLisp {
         int steps = 0 ;
         for(int i = 0 ; i < str.length() ; i++){
             steps += str.charAt(i) == '(' ? 1 : -1 ;
+            // Part two of the question
+            if(steps == -1){
+                return i + 1 ;
+            }
         }
         return steps ;
     }
