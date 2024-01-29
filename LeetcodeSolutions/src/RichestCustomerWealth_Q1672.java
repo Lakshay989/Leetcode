@@ -30,7 +30,7 @@ public class RichestCustomerWealth_Q1672 {
         int result3 = solution.maximumWealth(accounts3);
         System.out.println("Test Case 3: " + (result3 == 17 ? "Passed" : "Failed"));
 
-        
+
         // Additional Test Case 4
         int[][] accounts4 = {{10, 5, 2}, {3, 8, 1}};
         int result4 = solution.maximumWealth(accounts4);
