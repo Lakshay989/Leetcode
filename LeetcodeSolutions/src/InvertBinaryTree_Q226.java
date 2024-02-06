@@ -2,10 +2,10 @@
   //Definition for a binary tree node.
   class TreeNode {
       int val;
-      TreeNodeQ104 left;
-      TreeNodeQ104 right;
+      TreeNodeQ543 left;
+      TreeNodeQ543 right;
       TreeNode() {}
-      TreeNode(int val) { this.val = val; }TreeNode(int val, TreeNodeQ104 left, TreeNodeQ104 right) {
+      TreeNode(int val) { this.val = val; }TreeNode(int val, TreeNodeQ543 left, TreeNodeQ543 right) {
       this.val = val;
       this.left = left;
       this.right = right;
@@ -14,7 +14,7 @@
 
 
 public class InvertBinaryTree_Q226 {
-    public TreeNodeQ104 invertTree(TreeNodeQ104 root) {
+    public TreeNodeQ543 invertTree(TreeNodeQ543 root) {
         if(root == null){
             return root ;
         }
@@ -22,7 +22,7 @@ public class InvertBinaryTree_Q226 {
             invertTree(root.left) ;
             invertTree(root.right) ;
 
-            TreeNodeQ104 temp = root.left ;
+            TreeNodeQ543 temp = root.left ;
             root.left = root.right ;
             root.right = temp ;
         }
@@ -31,18 +31,18 @@ public class InvertBinaryTree_Q226 {
 
     public static void main(String[] args) {
         // Create a sample binary tree
-        TreeNodeQ104 root = new TreeNodeQ104(1);
-        root.left = new TreeNodeQ104(2);
-        root.right = new TreeNodeQ104(3);
-        root.left.left = new TreeNodeQ104(4);
-        root.left.right = new TreeNodeQ104(5);
-        root.right.left = new TreeNodeQ104(6);
-        root.right.right = new TreeNodeQ104(7);
+        TreeNodeQ543 root = new TreeNodeQ543(1);
+        root.left = new TreeNodeQ543(2);
+        root.right = new TreeNodeQ543(3);
+        root.left.left = new TreeNodeQ543(4);
+        root.left.right = new TreeNodeQ543(5);
+        root.right.left = new TreeNodeQ543(6);
+        root.right.right = new TreeNodeQ543(7);
 
         InvertBinaryTree_Q226 solution = new InvertBinaryTree_Q226();
 
         // Invert the binary tree
-        TreeNodeQ104 invertedRoot = solution.invertTree(root);
+        TreeNodeQ543 invertedRoot = solution.invertTree(root);
 
         // Display the inverted binary tree (you can use a traversal method)
         System.out.println("Inverted Binary Tree:");
@@ -52,7 +52,7 @@ public class InvertBinaryTree_Q226 {
     }
 
     // In-order traversal method (can use other traversal methods as needed)
-    private static void preOrderTraversal(TreeNodeQ104 node) {
+    private static void preOrderTraversal(TreeNodeQ543 node) {
         if (node != null) {
             System.out.print(node.val + " ");
             preOrderTraversal(node.left);

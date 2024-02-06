@@ -2,11 +2,11 @@
  // Definition for a binary tree node.
    class TreeNodeQ104 {
       int val;
-      TreeNodeQ104 left;
-      TreeNodeQ104 right;
+      TreeNodeQ543 left;
+      TreeNodeQ543 right;
       TreeNodeQ104() {}
       TreeNodeQ104(int val) { this.val = val; }
-      TreeNodeQ104(int val, TreeNodeQ104 left, TreeNodeQ104 right) {
+      TreeNodeQ104(int val, TreeNodeQ543 left, TreeNodeQ543 right) {
           this.val = val;
           this.left = left;
           this.right = right;
@@ -15,7 +15,7 @@
 
 
 public class MaximumDepthOfBinaryTree_Q104 {
-    public int maxDepth(TreeNodeQ104 root) {
+    public int maxDepth(TreeNodeQ543 root) {
         if (root == null) {
             return 0;
         }
@@ -27,12 +27,12 @@ public class MaximumDepthOfBinaryTree_Q104 {
     }
     public static void main(String[] args) {
         // Create a sample binary tree
-        TreeNodeQ104 root = new TreeNodeQ104(1);
-        root.left = new TreeNodeQ104(2);
-        root.right = new TreeNodeQ104(3);
-        root.left.left = new TreeNodeQ104(4);
-        root.left.right = new TreeNodeQ104(5);
-        root.right.right = new TreeNodeQ104(6);
+        TreeNodeQ543 root = new TreeNodeQ543(1);
+        root.left = new TreeNodeQ543(2);
+        root.right = new TreeNodeQ543(3);
+        root.left.left = new TreeNodeQ543(4);
+        root.left.right = new TreeNodeQ543(5);
+        root.right.right = new TreeNodeQ543(6);
 
         MaximumDepthOfBinaryTree_Q104 solution = new MaximumDepthOfBinaryTree_Q104();
 
