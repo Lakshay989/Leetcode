@@ -24,7 +24,7 @@ public class ValidateBinarySearchTree_Q98 {
     public boolean isValidBST(TreeNodeQ98 root) {
         return isValid(root, Double.NEGATIVE_INFINITY, Double.POSITIVE_INFINITY);
     }
-    
+
     public static void main(String[] args) {
         ValidateBinarySearchTree_Q98 validator = new ValidateBinarySearchTree_Q98();
 
