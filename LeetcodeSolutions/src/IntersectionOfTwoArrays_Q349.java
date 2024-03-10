@@ -15,7 +15,6 @@ public class IntersectionOfTwoArrays_Q349 {
         }
         return result.stream().mapToInt(Integer::intValue).toArray();
     }
-
     public static void main(String[] args) {
         IntersectionOfTwoArrays_Q349 solution = new IntersectionOfTwoArrays_Q349();
 
