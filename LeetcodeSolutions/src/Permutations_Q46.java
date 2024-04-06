@@ -29,7 +29,7 @@ public class Permutations_Q46 {
         nums[i] = nums[index] ;
         nums[index] = t ;
     }
-    
+
     public static void main(String[] args) {
         Permutations_Q46 solution = new Permutations_Q46();
 
