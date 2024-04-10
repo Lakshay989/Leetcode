@@ -1,7 +1,14 @@
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
+
 public class TimeNeededToBuyTickets_Q2073 {
     public int timeRequiredToBuy(int[] tickets, int k) {
         int time = 0;
+        Arrays.sort(tickets);
 
+        Arrays.asList(tickets);
         for (int i = 0; i < tickets.length; i++) {
             // If the current person is before or at the desired person 'k'
             if (i <= k) {
