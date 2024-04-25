@@ -22,7 +22,7 @@ public class KClosestPointsToOrigin_Q973 {
         return point[0] * point[0] + point[1] * point[1];
     }
 
-    
+
     public static void main(String[] args) {
         KClosestPointsToOrigin_Q973 kClosestPoints = new KClosestPointsToOrigin_Q973();
 
