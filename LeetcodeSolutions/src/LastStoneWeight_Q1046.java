@@ -33,4 +33,17 @@ public class LastStoneWeight_Q1046 {
         }
         return pq.poll() ;
     }
+    public static void main(String[] args) {
+        LastStoneWeight_Q1046 lastStoneWeight = new LastStoneWeight_Q1046();
+
+        // Test case 1
+        int[] stones1 = {2, 7, 4, 1, 8, 1};
+        System.out.println("Test Case 1:");
+        System.out.println("Last stone weight: " + lastStoneWeight.lastStoneWeight(stones1)); // Output: 1
+
+        // Test case 2
+        int[] stones2 = {5, 1, 10, 7, 2};
+        System.out.println("\nTest Case 2:");
+        System.out.println("Last stone weight: " + lastStoneWeight.lastStoneWeight(stones2)); // Output: 1
+    }
 }
