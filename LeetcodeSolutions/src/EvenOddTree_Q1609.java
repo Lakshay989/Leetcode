@@ -12,8 +12,8 @@ class TreeNodeQ1609 {
         this.val = val;
         this.left = left;
         this.right = right;
-        }
-        }
+    }
+}
 
 public class EvenOddTree_Q1609 {
     public boolean isEvenOddTree(TreeNodeQ1609 root) {
