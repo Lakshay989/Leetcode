@@ -54,7 +54,7 @@ public class AppendCharactersToStringToMakeSubsequence_Q2486 {
         // Test case 6: t contains repeating characters
         String s6 = "abacaba";
         String t6 = "aaaa";
-        int expected6 = 0; 
+        int expected6 = 0;
         System.out.println("Test Case 6 Passed: " + (solution.appendCharacters(s6, t6) == expected6));
     }
 }
